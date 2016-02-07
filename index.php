@@ -6,17 +6,18 @@
 
 </head>
 
-
 <body>
-	<title>JohnoAvocado</title>
+
+<?php
+    // Grab thre html segments
+    include 'assets/html/header.html';
+    include 'assets/html/scriptout.html';
+?>
 	
-
-	<h1>JohnoAvocado</h1>
-	<p>Lets try and get some output from a script!</p>
+	<div class="ja fat">
+	    <a href="index.php"><img id="logo" src="https://drive.google.com/uc?id=0B5f0t1OksMN8aGdtOE9FSUJOMW8" /></a>
+    </div>
     
-	<h2>Script output:</h2>
-	<p id="scriptout"></p>	
 </body>
-
 
 </html>

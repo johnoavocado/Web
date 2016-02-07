@@ -1,4 +1,22 @@
+/* Class tags */
 body {
 	background-color: #dffda6;
 	text-align: center;
+}
+
+.fat{
+    width:  100%;
+}
+
+.skinny{
+    width:  50%;
+}
+
+/* ID tags */
+#logo{
+    width:  25%;
+}
+
+#scriptout{
+    color:  #990000;
 }
