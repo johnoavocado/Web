@@ -3,6 +3,7 @@
 <html>
 
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="assets/css/iaa.css">
 <title>Irish Autism Action</title>
 </head>
@@ -16,7 +17,7 @@
     <div class="socialicon">
         <img src="https://www.seeklogo.net/wp-content/uploads/2011/06/facebook-icon-logo-vector.png">
     </div>
-    <div class="socialsearch">Search...</div>
+    <div class="socialsearch"><input type="text" name="Searchbar" value="Search..."></div>
 </div>
 
 <div class="logo">
@@ -25,10 +26,10 @@
 
 <div class="topmenu">
 <ul>
-  <li><a href="#">Home</a></li>
-  <li><a href="#">News</a></li>
-  <li><a href="#">Contact</a></li>
-  <li><a href="#">About</a></li>
+  <li class="tmitem"><a href="#">Home</a></li>
+  <li class="tmitem"><a href="#">News</a></li>
+  <li class="tmitem"><a href="#">Contact</a></li>
+  <li class="tmitem"><a href="#">About</a></li>
 </ul>
 </div>
 
@@ -41,9 +42,10 @@
         <div class="rotate"><h2>IAA<h2></div>
         </div>
     <div class="mmenuitem" id="photo">
-        <img src="http://www.autismireland.ie/assets/images/gallery/WAAD2015/150402-T1-015.jpg" > 
+        <img id="pic" src="http://www.autismireland.ie/assets/images/gallery/WAAD2015/150402-T1-015.jpg" > 
+        <h2 id="photooverlay"><span>Blue Nose Day!</span></h2>
     </div>
-    <div class="mmenuitem" id="container">
+    <div id="container">
         <div class="mmenuitem" id="donate"><h2>Donate</h2></div>
         <div class="mmenuitem" id="money"><h2>Impact</h2></div>
     </div>
@@ -86,10 +88,7 @@
     </div>
 </div>
 	
-<div>
-    
-</div>
-    
+<script src="assets/js/iaa.js"></script>
 </body>
 
 </html>

@@ -43,11 +43,28 @@ body {
     height: 100%;
     width: 60%;
     overflow:   hidden;
+    position: relative;
 }
 
 #photo img {
     width: 100%;
     height: auto;
+    position: absolute;
+}
+
+#photooverlay{
+    width: 100%;
+    margin-top: 280px;
+    background-color:#887d89;
+    opacity: 0.6;
+    position: absolute;
+}
+
+#photooverlay span{
+   color: white; 
+   float: left;
+   font: bold 40px arial, Serif; 
+   padding: 10px; 
 }
 
 #container{
@@ -145,15 +162,13 @@ body {
 
 .socialsearch{
     float: right;
-    height:100%;
-    width: 200px;
-    background-color: #FFFFFF;
-    margin-right:100px;
+    margin-top: 5px;
+    margin-right:40px;
 }
 
 .tilecontainer{
     position:absolute;
-    top: 700px;
+    top: 650px;
     left: 50%;
     -webkit-transform: translate( 0, -50%);
     transform: translate(-50%, -10%);
@@ -183,6 +198,8 @@ body {
     background-color: #c62ad0;
     height: 300px;
     width: 300px;
-    margin: 15px;
+    margin-top: 30px;
+    margin-right: 15px;
+    line-height: 300px;
 }
 
